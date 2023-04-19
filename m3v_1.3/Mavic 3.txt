@@ -1,0 +1,18 @@
+Вимкнув бортові вогні
+forearm_led 0
+
+Cinematic Mode поміняв на режим ATTI
+fswitch_selection -> 12 -> 3
+
+Автоматична посадка при низькому рівні розряду батареї відключив
+dji_bat_level_1|g_config.voltage2.level_1_voltage 10
+bat_level_2_action|g_config.voltage.level_2_protect_type 0
+level1_smart_battert_gohome|g_config.voltage2.level2_smart_battery_gohome 0 level1_smart_batter
+level2_smart_battert_land|g_config.voltage2.level2_smart_battery_land 0 level2_smart_battert
+bat_enable_smart_bat_landing_protect 0
+
+Precission Landing (можна дрон садити на руку) включив
+g_config.flying_limit.avoid_ground_and_smart_landing_enable 0
+
+Вимкнення перезавантаження модуля GPS при помилці компаса
+g_config.fdi_switch.gps.with_fdi 0 
